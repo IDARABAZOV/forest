@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="format-detection" content="telephone=no">
+		<meta name="viewport" content="width=1200">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<title>Forest Fitness Club</title>
+		<link rel="shortcut icon" href="images/favicon.png" type="image/png">
+		<link rel="stylesheet" href="css/style.css?1"/>
+		<link rel="stylesheet" href="css/fonts.css"/>
+		<link rel="stylesheet" href="css/normalize.css"/>
+		<link rel="stylesheet" href="css/lity.min.css"/>
+		<link rel="stylesheet" href="css/owl.carousel.min.css"/>
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap&subset=cyrillic" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Oswald:400,600&display=swap&subset=cyrillic" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+		<script src="js/clear.js"></script>
+		<script src="js/AnchorScroller.js"></script>
+		<script src="js/jquery.maskedinput.js"></script>
+		<script src="js/lity.min.js"></script>
+		<script src="js/owl.carousel.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/webshim/1.16.0/dev/polyfiller.js"></script> 
+		<script> 
+			webshim.activeLang('ru');
+ 			webshims.polyfill('forms');
+			webshims.cfg.no$Switch = true;
+		</script>
+		<script>
+			jQuery(function($){
+				$(".in1").mask("+7 (999) 999-9999");
+			});
+		</script>
+		<script>
+			$(document).ready(function(){
+				$(".sl2").owlCarousel({
+					loop:true,
+					nav:true,
+					margin:0,
+					autoplay:false,
+					smartSpeed:1000,
+					autoplayTimeout:6000,
+					responsive:{
+						0:{
+							items:1
+						}
+					}
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<a href="#" class="logo"><img src="images/logo.jpg" alt="Forest fitness club"></a>
+				<nav id="nav-wrap">
+					<ul class="menu" id="nav">
+						<li><a href="#">Расписание</a></li>
+						<li><a href="#m2" onclick="return anchorScroller(this)">О нас</a></li>
+						<li><a href="#m3" onclick="return anchorScroller(this)">Схема зала</a></li>
+						<li><a href="#m4" onclick="return anchorScroller(this)">Услуги</a></li>
+						<li><a href="#m5" onclick="return anchorScroller(this)">Контакты</a></li>
+					</ul>
+				</nav>
+				<a href="tel:+78003003001" class="phone">тел. 300-300-1</a>
+				<div class="clear"></div>
+				<div class="text1">
+					<div class="info">Старт предпродаж! Скидки и персональные условия</div>
+					<h1>Новая фитнес<br>территория</h1>
+					<p>Если у вас уже есть абонемент - загляните сюда</p>
+					<p>Успей купить до открытия по специальной цене 950 руб./мес.</p>
+					<a href="#" class="butt1">Купить</a>
+					<a href="#m3" onclick="return anchorScroller(this)" class="butt2">Посмотреть</a>
+				</div>
+			</div>
+		</header>
+		<a name="m2"></a>
+		<div class="about">
+			<div class="container">
+				<h3>О нас</h3>
+				<div class="owl-carousel sl2">
+					<div class="item">
+						<img src="images/sl2.jpg" alt="">
+						<p>Зона отдыха</p>
+					</div>
+					<div class="item">
+						<img src="images/sl2.jpg" alt="">
+						<p>Раздевалка</p>
+					</div>
+					<div class="item">
+						<img src="images/sl2.jpg" alt="">
+						<p>Душевая</p>
+					</div>
+					<div class="item">
+						<img src="images/sl2.jpg" alt="">
+						<p>Тренажерный<br>зал</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="video">
+			<h3>Или просто посмотрите видео</h3>
+			<a href="https://www.youtube.com/watch?v=Vz5EeJugwG8" class="play" data-lity><img src="images/bg3.jpg"></a>
+		</div>
+		<a name="m3"></a>
+		<div class="map">
+			<div class="container">
+				<h3>Схема зала</h3>
+				<img src="images/bg4.jpg">
+				<div class="nn n1">Массажный кабинет</div>
+				<div class="nn n2">Сауна М</div>
+				<div class="nn n3">Сауна Ж</div>
+				<div class="nn n4">Раздевалка мужская</div>
+				<div class="nn n5">Раздевалка женская</div>
+				<div class="nn n6">Гардероб</div>
+				<div class="nn n7">Детская комната</div>
+				<div class="nn n8">Кабинет директора</div>
+				<div class="nn n9">Отдел продаж</div>
+				<div class="nn n10">Зона отдыха</div>
+				<div class="nn n11">Зона приветствия</div>
+				<div class="nn n12">ВХОД</div>
+				<div class="nn n13">Аэройога / Малый зал групповых программ</div>
+				<div class="nn n14">Большой зал групповых программ</div>
+				<div class="nn n15">Hot Stretching</div>
+				<div class="nn n16">Зона кроссфит</div>
+				<div class="nn n17">Зона свободных весов</div>
+				<div class="nn n18">Зона единоборств</div>
+				<div class="nn n19">Студия сайкл</div>
+				<div class="nn n20">Зона силовых тренажеров</div>
+				<div class="nn n21">Кардио зона</div>
+			</div>
+		</div>
+		<a name="m4"></a>
+		<div class="services">
+			<div class="container">
+				<h3>Наши услуги</h3>
+				<div class="col col1 col2">
+					<div class="ser">
+						<img src="images/i4.jpg" alt="">
+						<p>Кардио зона</p>
+					</div>
+					<div class="ser ser2">
+						<img src="images/i14.jpg" alt="">
+						<p>Аэройога</p>
+						<i>Это новое, современное направление йоги в котором сплелись древние йогические знания и воздушная акробатика</i>
+					</div>
+				</div>
+				<div class="col col1">
+					<div class="ser">
+						<img src="images/i3.jpg" alt="">
+						<p>Кроссфит</p>
+					</div>
+					<div class="ser">
+						<img src="images/i7.jpg" alt="">
+						<p>Гардероб</p>
+					</div>
+					<div class="ser">
+						<img src="images/i10.jpg" alt="">
+						<p>Фитнес-бар</p>
+					</div>
+					<div class="ser">
+						<img src="images/i13.jpg" alt="">
+						<p>Оборудование</p>
+					</div>
+				</div>
+				<div class="col col1">
+					<div class="ser">
+						<img src="images/i2.jpg" alt="">
+						<p>Зона единоборств</p>
+					</div>
+					<div class="ser">
+						<img src="images/i6.jpg" alt="">
+						<p>Детская комната</p>
+					</div>
+					<div class="ser">
+						<img src="images/i9.jpg" alt="">
+						<p>Сауна</p>
+					</div>
+					<div class="ser">
+						<img src="images/i12.jpg" alt="">
+						<p>Пилон</p>
+					</div>
+				</div>
+				<div class="col">
+					<div class="ser">
+						<img src="images/i1.jpg" alt="">
+						<p>Тренажерный зал</p>
+					</div>
+					<div class="ser">
+						<img src="images/i5.jpg" alt="">
+						<p>Hot stretch</p>
+					</div>
+					<div class="ser">
+						<img src="images/i8.jpg" alt="">
+						<p>Солярий</p>
+					</div>
+					<div class="ser">
+						<img src="images/i11.jpg" alt="">
+						<p>Детский фитнес</p>
+					</div>
+				</div>
+				<div class="clear"></div>
+				<div class="butt">
+					<h4>Готовы купить! Действуйте!</h4>
+					<a href="#" class="butt1">Купить</a>
+				</div>
+			</div>
+		</div>
+		<a name="m5"></a>
+		<footer>
+			<div class="container">
+				<a href="#" class="logo"><img src="images/logo2.jpg" alt="Forest fitness club"></a>
+				<div class="map2"><script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Acb65e42b95a2fb7d48c6e97e7a8ddcfe3c19f35705b17242daf8ef52390f41f2&amp;width=100%25&amp;height=300&amp;lang=ru_RU&amp;scroll=false"></script></div>
+				<div class="contact">
+					<div class="title">Контакты</div>
+					<p>Фитнес-клуб на академической<br>
+					Гражданский проспект, д. 68</p>
+					<a href="tel:+7 (999) 123 12 13" class="phone2">+7 (999) 123 12 13</a>
+					<div class="title2">Оставьте телефон и мы вам перезвоним:</div>
+					<form method="post" id="form1">
+						<input name="phone" placeholder="Телефон" class="in1" required>
+						<button>Отправить</button>
+					</form>
+				</div>
+				<div class="links">
+					<div class="title">Мы в социальных сетях</div>
+					<a href="#" class="ll tw"></a>
+					<a href="#" class="ll in"></a>
+					<a href="#" class="ll yt"></a>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</footer>
+	</body>
+</html>
