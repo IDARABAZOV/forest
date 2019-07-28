@@ -19,7 +19,7 @@ header {
 
 header .logo {
 	width: 300px;
-	margin: 0px 45px 0px 0px;
+	margin: 0px 105px 0px 0px;
 	float: left;
 }
 
@@ -29,7 +29,7 @@ header .logo img {
 }
 
 header .menu {
-	margin: 30px 0px 0px 0px;
+	margin: 30px 0px 0px -30px;
 	float: left;
 }
 
@@ -49,6 +49,13 @@ header .menu li a {
 	text-decoration: none;
 }
 
+header .menu li:nth-child(2) {
+    background-image: url("../images/menu-lines.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
 header .menu li a:hover {
 	text-decoration: underline;
 }
@@ -64,9 +71,40 @@ header .phone {
 	float: right;
 }
 
+header .phone:before {
+	content: url("../images/menu-tel.png");
+	margin-right: 10px;
+}
+
+header .menu-icons {
+	margin-top: 80px;
+	float: right;
+	display: flex;
+	flex-direction: column;
+	height: 210px;
+	justify-content: space-between;
+}
+
 header .text1 {
 	width: 600px;
-	margin: 130px 0px 0px 0px;
+	margin: 90px 0px 0px 30px;
+}
+
+header .arrow-down {
+    position: absolute;
+    bottom: 150px;
+}
+
+.bottom-icons {
+	float: right;
+}
+
+.bottom-icons .bottom-icons__item {
+	margin-bottom: 10px;
+}
+
+.bottom-icons .bottom-icons__item:hover {
+	opacity: 0.90;
 }
 
 header .info {
@@ -249,6 +287,11 @@ h3 {
 	position: relative;
 }
 
+.map h4 {
+	margin: 10px;
+	color: #dbb96e;
+}
+
 .map .nn {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
@@ -261,107 +304,107 @@ h3 {
 
 .map .n1 {
 	left: 230px;
-	top: 260px;
+	top: 320px;
 }
 
 .map .n2 {
 	left: 400px;
-	top: 265px;
+	top: 330px;
 }
 
 .map .n3 {
 	left: 430px;
-	top: 228px;
+	top: 290px;
 }
 
 .map .n4 {
 	left: 430px;
-	top: 200px;
+	top: 260px;
 }
 
 .map .n5 {
 	left: 460px;
-	top: 175px;
+	top: 230px;
 }
 
 .map .n6 {
 	left: 645px;
-	top: 182px;
+	top: 240px;
 }
 
 .map .n7 {
-	left: 610px;
-	top: 153px;
+	left: 620px;
+	top: 220px;
 }
 
 .map .n8 {
 	left: 630px;
-	top: 128px;
+	top: 200px;
 }
 
 .map .n9 {
 	left: 720px;
-	top: 105px;
+	top: 170px;
 }
 
 .map .n10 {
 	left: 830px;
-	top: 128px;
+	top: 190px;
 }
 
 .map .n11 {
 	left: 900px;
-	top: 108px;
+	top: 168px;
 }
 
 .map .n12 {
 	left: 1110px;
-	top: 228px;
+	top: 288px;
 }
 
 .map .n13 {
 	left: 240px;
-	top: 745px;
+	top: 810px;
 }
 
 .map .n14 {
 	left: 300px;
-	top: 725px;
+	top: 785px;
 }
 
 .map .n15 {
 	left: 400px;
-	top: 705px;
+	top: 765px;
 }
 
 .map .n16 {
 	left: 450px;
-	top: 675px;
+	top: 735px;
 }
 
 .map .n17 {
 	left: 570px;
-	top: 705px;
+	top: 765px;
 }
 
 .map .n18 {
 	left: 670px;
-	top: 631px;
+	top: 691px;
 }
 
 .map .n19 {
 	left: 830px;
-	top: 595px;
+	top: 655px;
 }
 
 .map .n20 {
 	left: 930px;
-	top: 527px;
+	top: 587px;
 }
 
 .map .n21 {
 	left: 1065px;
-	top: 490px;
+	top: 550px;
 }
 
 .services {
@@ -491,8 +534,8 @@ footer .logo img {
 }
 
 .map2 {
-	width: 400px;
-	height: 300px;
+	width: 518px;
+	height: 291px;
 	border: 2px solid #008209;
 	margin: 0px 30px 0px 0px;
 	float: left;
@@ -500,7 +543,7 @@ footer .logo img {
 
 .contact {
 	width: 400px;
-	margin: 0px 30px 0px 0px;
+	margin: 0px -90px 0px 0px;
 	float: left;
 }
 
@@ -530,7 +573,7 @@ footer .logo img {
 	line-height: 24px;
 	text-decoration: none;
 	margin: 0px 0px 20px 0px;
-	display: blcok;
+	display: block;
 }
 
 .title2 {
@@ -583,7 +626,7 @@ footer .logo img {
 .links {
 	width: 306px;
 	margin: 0px 0px 0px 0px;
-	float: left;
+	float: right;
 }
 
 .ll {
